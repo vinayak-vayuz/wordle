@@ -11,6 +11,7 @@ function App() {
   return (
     <div className={"app dark:bg-zinc-800"}>
       <Game darkness={darkHandler} />
+      
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Help from "../Help";
 import KeyBoard from "../KeyBoard";
 import Modal from "../Modal";
 import NavBar from "../NavBar";
+import Footer from "../Footer";
 import styles from "./style.module.css";
 
 function Game(props) {
@@ -66,6 +67,7 @@ function Game(props) {
           error={setError}
         />
         <KeyBoard keyHandler={keyHandler} letters={letters} changed={changed} />
+        <Footer />
       </div>
     </>
   );
