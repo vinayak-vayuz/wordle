@@ -36,7 +36,7 @@ function Settings(props) {
         />
         <hr />
         <div className="flex justify-around pt-2">
-          <a className="flex" href="https://github.com/MahmoudFettal/wordle">
+          <a className="flex" href="https://github.com">
             <GitHubIcon />
           </a>
           <a className="flex" href="https://twitter.com/mahmoudfettal">
