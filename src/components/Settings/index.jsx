@@ -35,14 +35,14 @@ function Settings(props) {
           label="Dark mode"
         />
         <hr />
-        <div className="flex justify-around pt-2">
+        {/* <div className="flex justify-around pt-2">
           <a className="flex" href="https://github.com">
             <GitHubIcon />
           </a>
-          <a className="flex" href="https://twitter.com/mahmoudfettal">
+          <a className="flex" href="https://twitter.com">
             <TwitterIcon />
           </a>
-        </div>
+        </div> */}
       </Menu>
     </div>
   );
