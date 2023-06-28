@@ -7,6 +7,7 @@ import Modal from "../Modal";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
 import styles from "./style.module.css";
+import WordOfTheDay from "../../api/WordOfTheDay";
 
 function Game(props) {
   const [letter, setLetter] = useState();
@@ -60,12 +61,15 @@ function Game(props) {
       <div className={styles.game}>
         <NavBar help={setHelp} darkness={setDark} dark={dark} />
         <hr />
-        <Board
-          letter={letter}
-          clicks={clicked}
-          letters={LettersHandler}
-          error={setError}
-        />
+        <div>
+          {/* <WordOfTheDay /> */}
+          <Board
+            letter={letter}
+            clicks={clicked}
+            letters={LettersHandler}
+            error={setError}
+          />
+        </div>
         <KeyBoard keyHandler={keyHandler} letters={letters} changed={changed} />
         <Footer />
       </div>
